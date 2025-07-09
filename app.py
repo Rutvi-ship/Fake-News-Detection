@@ -9,7 +9,7 @@ st.write("Enter a News Article below to check whether it is Fake or Real. ")
 
 inputn = st.text_area("News Article:","")
 
-if st.button("Check News  "):
+if st.button("Check News  git status"):
 
     if inputn.strip():
         transform_input = vectorizer.transform([inputn])
